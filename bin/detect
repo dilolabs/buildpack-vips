@@ -1,6 +1,6 @@
 #! /bin/bash
 
-SUPPORTED_STACKS=(scalingo-16 scalingo-18 scalingo-20)
+SUPPORTED_STACKS=(scalingo-18 scalingo-20)
 
 for stack_option in "${SUPPORTED_STACKS[@]}"; do
   if [[ $STACK = $stack_option ]]; then

@@ -3,7 +3,7 @@
 # set -x
 set -e
 
-STACK_VERSIONS=(16 18 20)
+STACK_VERSIONS=(18 20)
 
 for stack_version in "${STACK_VERSIONS[@]}"; do
   image_name=libvips-scalingo-$stack_version:$VIPS_VERSION
