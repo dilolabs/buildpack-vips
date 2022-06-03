@@ -6,7 +6,7 @@ set -e
 STACK_VERSIONS=(16 18 20)
 
 for stack_version in "${STACK_VERSIONS[@]}"; do
-  image_name=libvips-heroku-$stack_version:$VIPS_VERSION
+  image_name=libvips-scalingo-$stack_version:$VIPS_VERSION
 
   docker build \
     --build-arg VIPS_VERSION=${VIPS_VERSION} \

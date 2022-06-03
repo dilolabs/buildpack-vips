@@ -1,5 +1,5 @@
 ARG STACK_VERSION
-FROM heroku/heroku:$STACK_VERSION
+FROM scalingo/scalingo-$STACK_VERSION
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -125,4 +125,4 @@ ARG STACK_VERSION
 RUN cd $VIPS_PREFIX \
   && rm -rf build \
   && mkdir build \
-  && tar czf "build/heroku-${STACK_VERSION}.tar.gz" bin include lib
+  && tar czf "build/scalingo-${STACK_VERSION}.tar.gz" bin include lib
