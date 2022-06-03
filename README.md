@@ -1,12 +1,13 @@
 heroku-buildpack-vips
 =====================
 
-A VIPS buildpack for the modern Heroku stacks. This stack supports the following
-stacks:
+A VIPS buildpack for the modern Heroku / Scalingo stacks. This stack supports the
+following stacks:
 
 - heroku-16
 - heroku-18
 - heroku-20
+- scalingo-20
 
 If you have problems on any of these stacks, or if a new stack comes out that is
 unsupported, please file an issue.
