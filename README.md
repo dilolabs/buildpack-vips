@@ -5,6 +5,7 @@ heroku-buildpack-vips modified to work on Scalingo. Supported stacks:
 
 - scalingo-18
 - scalingo-20
+- heroku-20
 
 ---
 
